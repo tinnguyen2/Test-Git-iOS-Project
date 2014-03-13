@@ -21,6 +21,7 @@
 		6A06150C18D2750A00784D25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0614EE18D2750A00784D25 /* UIKit.framework */; };
 		6A06151418D2750A00784D25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A06151218D2750A00784D25 /* InfoPlist.strings */; };
 		6A06151618D2750A00784D25 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A06151518D2750A00784D25 /* GitTestTests.m */; };
+		6A06152118D2783A00784D25 /* PVTestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A06152018D2783A00784D25 /* PVTestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6A06151118D2750A00784D25 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		6A06151318D2750A00784D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A06151518D2750A00784D25 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		6A06151F18D2783A00784D25 /* PVTestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVTestGit.h; sourceTree = "<group>"; };
+		6A06152018D2783A00784D25 /* PVTestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVTestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		6A0614DE18D2750A00784D25 = {
 			isa = PBXGroup;
 			children = (
+				6A06151F18D2783A00784D25 /* PVTestGit.h */,
+				6A06152018D2783A00784D25 /* PVTestGit.m */,
 				6A0614F018D2750A00784D25 /* GitTest */,
 				6A06150F18D2750A00784D25 /* GitTestTests */,
 				6A0614E918D2750A00784D25 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A06152118D2783A00784D25 /* PVTestGit.m in Sources */,
 				6A06150118D2750A00784D25 /* PVViewController.m in Sources */,
 				6A0614FB18D2750A00784D25 /* PVAppDelegate.m in Sources */,
 				6A0614F718D2750A00784D25 /* main.m in Sources */,
